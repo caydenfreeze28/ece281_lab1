@@ -83,7 +83,7 @@ begin
            not i_D when "100",
            not i_D when "101",
            not i_D when "110",
-           not i_D when others;
+           '0' when others;
 	--enter your logic here to implement the mux.  See VHDL reference sheet for MUX syntax.	
 	---------------------------------------------------------------	
 end thirtyOneDayMonth_arch;

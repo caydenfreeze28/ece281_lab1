@@ -3,25 +3,25 @@
 ## Prelab questions
 
 ### Truth Table
-
+MUX uses turth table C as A input and truth table A as C input
 | Month | A | B | C | D | Y |
 |-------|---|---|---|---|---|
 |       | 0 | 0 | 0 | 0 | x |
-| Jan   | 0 | 0 | 0 | 1 | 1 |
+| Jan   | 0 | 0 | 0 | 1 | 1 | //D0 Y=D
 | Feb   | 0 | 0 | 1 | 0 | 0 |
-| Mar   | 0 | 0 | 1 | 1 | 1 |
+| Mar   | 0 | 0 | 1 | 1 | 1 | //D4 Y=D
 | Apr   | 0 | 1 | 0 | 0 | 0 |
-| May   | 0 | 1 | 0 | 1 | 1 |
+| May   | 0 | 1 | 0 | 1 | 1 | //D2 Y=D
 | Jun   | 0 | 1 | 1 | 0 | 0 |
-| Jul   | 0 | 1 | 1 | 1 | 1 |
-| Aug   | 1 | 0 | 0 | 0 | 1 |
+| Jul   | 0 | 1 | 1 | 1 | 1 | //D6 Y=D
+| Aug   | 1 | 0 | 0 | 0 | 1 | //D1 Y=D'
 | Sept  | 1 | 0 | 0 | 1 | 0 |
-| Oct   | 1 | 0 | 1 | 0 | 1 |
+| Oct   | 1 | 0 | 1 | 0 | 1 | //D5 Y=D'
 | Nov   | 1 | 0 | 1 | 1 | 0 | 
-| Dec   | 1 | 1 | 0 | 0 | 1 |
+| Dec   | 1 | 1 | 0 | 0 | 1 | //D3 Y=D'
 |       | 1 | 1 | 0 | 1 | x |
-|       | 1 | 1 | 1 | 0 | x |
-|       | 1 | 1 | 1 | 1 | x |
+|       | 1 | 1 | 1 | 0 | x | //D7
+|       | 1 | 1 | 1 | 1 | x | //D7
 
 ### Boolean Equation
 
